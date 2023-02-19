@@ -401,3 +401,53 @@ p
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+@media (max-width: 500px)
+{
+    .skills_number{
+        position: absolute;
+        right: 1rem;
+    }
+    
+    .skills_number1{
+        position: absolute;
+        right: 3rem;
+    }
+    
+    .skills_number2{
+        position: absolute;
+        right: 3rem;
+    }
+    
+    .skills_number3{
+        position: absolute;
+        right: 3rem;
+    }
+    
+    .skills_number4{
+        position: absolute;
+        right: 5rem;
+    }
+    
+    .skills_number5{
+        position: absolute;
+        right: 3rem;
+    }
+    
+    .skills_number6{
+        position: absolute;
+        right: 3rem;
+    }
+    
+    .skills_number7{
+        position: absolute;
+        right: 5rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .skills_number7{
+        position: absolute;
+        right: 4rem;
+    }
+}
